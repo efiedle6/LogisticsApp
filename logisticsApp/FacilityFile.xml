@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FacilityListContent>
+
+    
+	<Facility Id="1">
+		<FacilityName>Seattle, WA</FacilityName>
+		<FacilityRate>8</FacilityRate>
+		<FacilityLink>
+			<Link>Fargo, ND</Link>
+			<Dist>1426</Dist>
+		</FacilityLink>
+		<FacilityLink>
+			<Link>San Francisco, CA</Link>
+			<Dist>808</Dist>
+		</FacilityLink>
+		<FStock>
+			<Item>ABC123</Item>
+			<Quantity>45</Quantity>
+		</FStock>
+		<FStock>
+			<Item>JBL3100</Item>
+			<Quantity>52</Quantity>
+		</FStock>
+		<FStock>
+			<Item>PL132-C</Item>
+			<Quantity>4</Quantity>
+		</FStock>
+		<FStock>
+			<Item>PU238</Item>
+			<Quantity>60</Quantity>
+		</FStock>
+	</Facility>
+
+     <Facility Id="2">
+        <FacilityName>San Francisco, CA</FacilityName>
+		<FacilityRate>12</FacilityRate>
+		<FacilityLink>
+			<Link>Seattle, WA</Link>
+			<Dist>808</Dist>
+		</FacilityLink>
+		<FacilityLink>
+			<Link>Denver, CO</Link>
+			<Dist>1249</Dist>
+		</FacilityLink>
+		<FacilityLink>
+			<Link>Los Angeles, CA</Link>
+			<Dist>382</Dist>
+		</FacilityLink>
+		<FStock>
+			<Item>RL123A</Item>
+			<Quantity>40</Quantity>
+		</FStock>
+		<FStock>
+			<Item>XLK200B</Item>
+			<Quantity>8</Quantity>
+		</FStock>
+		<FStock>
+			<Item>SR71-D</Item>
+			<Quantity>81</Quantity>
+		</FStock>
+		<FStock>
+			<Item>CT1928</Item>
+			<Quantity>46</Quantity>
+		</FStock>
+	</Facility>
+
+
+     <Facility Id="3">
+        <FacilityName>Los Angeles, CA</FacilityName>
+		<FacilityRate>10</FacilityRate>
+		<FacilityLink>
+			<Link>San Francisco, CA</Link>
+			<Dist>382</Dist>
+		</FacilityLink>
+		<FacilityLink>
+			<Link>Phoenix, AZ</Link>
+			<Dist>372</Dist>
+		</FacilityLink>
+		<FStock>
+			<Item>RX100-3</Item>
+			<Quantity>57</Quantity>
+		</FStock>
+		<FStock>
+			<Item>JBL3100</Item>
+			<Quantity>60</Quantity>
+		</FStock>
+		<FStock>
+			<Item>E241i</Item>
+			<Quantity>44</Quantity>
+		</FStock>
+		<FStock>
+			<Item>XTP202</Item>
+			<Quantity>32</Quantity>
+		</FStock>
+     </Facility>
+
+     <Facility Id="4">
+        <FacilityName>Phoenix, AZ</FacilityName>
+		<FacilityRate>8</FacilityRate>
+		<FacilityLink>
+			<Link>Los Angeles, CA</Link>
+			<Dist>372</Dist>
+		</FacilityLink>
+		<FacilityLink>
+			<Link>Santa Fe, NM</Link>
+			<Dist>480</Dist>
+		</FacilityLink>
+		<FStock>
+			<Item>RX100-3</Item>
+			<Quantity>18</Quantity>
+		</FStock>
+		<FStock>
+			<Item>SR71-D</Item>
+			<Quantity>55</Quantity>
+		</FStock>
+		<FStock>
+			<Item>SN-241-L</Item>
+			<Quantity>22</Quantity>
+		</FStock>
+		<FStock>
+			<Item>ZTF109</Item>
+			<Quantity>54</Quantity>
+		</FStock>
+	</Facility>
+
+     <Facility Id="5">
+        <FacilityName>Denver, CO</FacilityName>
+		<FacilityRate>10</FacilityRate>
+		<FacilityLink>
+			<Link>San Francisco, CA</Link>
+			<Dist>1249</Dist>
+		</FacilityLink>
+		<FacilityLink>
+			<Link>Santa Fe, NM</Link>
+			<Dist>392</Dist>
+		</FacilityLink>
+		<FacilityLink>
+			<Link>Fargo, ND</Link>
+			<Dist>889</Dist>
+		</FacilityLink>
+		<FacilityLink>
+			<Link>St. Louis, MO</Link>
+			<Dist>851</Dist>
+		</FacilityLink>
+		<FStock>
+			<Item>ABC123</Item>
+			<Quantity>80</Quantity>
+		</FStock>
+		<FStock>
+			<Item>RL123A</Item>
+			<Quantity>110</Quantity>
+		</FStock>
+		<FStock>
+			<Item>RTF110</Item>
+			<Quantity>100</Quantity>
+		</FStock>
+     </Facility>
+
+     <Facility Id="6">
+        <FacilityName>Santa Fe, NM</FacilityName>
+		<FacilityRate>8</FacilityRate>
+		<FacilityLink>
+			<Link>Phoenix, AZ</Link>
+			<Dist>480</Dist>
+		</FacilityLink>
+		<FacilityLink>
+			<Link>Denver, CO</Link>
+			<Dist>392</Dist>
+		</FacilityLink>
+		<FacilityLink>
+			<Link>St. Louis, MO</Link>
+			<Dist>1032</Dist>
+		</FacilityLink>
+		<FacilityLink>
+			<Link>Austin, TX</Link>
+			<Dist>688</Dist>
+		</FacilityLink>
+		<FStock>
+			<Item>RX100-3</Item>
+			<Quantity>144</Quantity>
+		</FStock>
+		<FStock>
+			<Item>CR2032</Item>
+			<Quantity>280</Quantity>
+		</FStock>
+     </Facility>
+
+     <Facility Id="7">
+        <FacilityName>Fargo, ND</FacilityName>
+		<FacilityRate>8</FacilityRate>
+		<FacilityLink>
+			<Link>Seattle, WA</Link>
+			<Dist>1426</Dist>
+		</FacilityLink>
+		<FacilityLink>
+			<Link>Denver, CO</Link>
+			<Dist>889</Dist>
+		</FacilityLink>
+		<FacilityLink>
+			<Link>Chicago, IL</Link>
+			<Dist>643</Dist>
+		</FacilityLink>
+		<FStock>
+			<Item>ABC123</Item>
+			<Quantity>25</Quantity>
+		</FStock>
+		<FStock>
+			<Item>JBL3100</Item>
+			<Quantity>32</Quantity>
+		</FStock>
+		<FStock>
+			<Item>XLK200B</Item>
+			<Quantity>82</Quantity>
+		</FStock>
+     </Facility>
+
+     <Facility Id="8">
+        <FacilityName>Austin, TX</FacilityName>
+		<FacilityRate>10</FacilityRate>
+		<FacilityLink>
+			<Link>Santa Fe, NM</Link>
+			<Dist>688</Dist>
+		</FacilityLink>
+		<FacilityLink>
+			<Link>St. Louis, MO</Link>
+			<Dist>825</Dist>
+		</FacilityLink>
+		<FacilityLink>
+			<Link>New Orleans, LA</Link>
+			<Dist>512</Dist>
+		</FacilityLink>
+		<FStock>
+			<Item>RL123A</Item>
+			<Quantity>66</Quantity>
+		</FStock>
+		<FStock>
+			<Item>RX100-3</Item>
+			<Quantity>35</Quantity>
+		</FStock>
+		<FStock>
+			<Item>SN-241-L</Item>
+			<Quantity>35</Quantity>
+		</FStock>
+     </Facility>
+
+     <Facility Id="9">
+        <FacilityName>St. Louis, MO</FacilityName>
+		<FacilityRate>12</FacilityRate>
+		<FacilityLink>
+			<Link>Chicago, IL</Link>
+			<Dist>297</Dist>
+		</FacilityLink>
+		<FacilityLink>
+			<Link>Nashville, TN</Link>
+			<Dist>309</Dist>
+		</FacilityLink>
+		<FacilityLink>
+			<Link>Austin, TX</Link>
+			<Dist>825</Dist>
+		</FacilityLink>
+		<FacilityLink>
+			<Link>Santa Fe, NM</Link>
+			<Dist>1032</Dist>
+		</FacilityLink>
+		<FacilityLink>
+			<Link>Denver, CO</Link>
+			<Dist>851</Dist>
+		</FacilityLink>
+		<FStock>
+			<Item>ABC123</Item>
+			<Quantity>70</Quantity>
+		</FStock>
+		<FStock>
+			<Item>SR71-D</Item>
+			<Quantity>45</Quantity>
+		</FStock>
+		<FStock>
+			<Item>PU238</Item>
+			<Quantity>82</Quantity>
+		</FStock>
+     </Facility>
+
+     <Facility Id="10">
+        <FacilityName>Chicago, IL</FacilityName>
+		<FacilityRate>10</FacilityRate>
+		<FacilityLink>
+			<Link>Fargo, ND</Link>
+			<Dist>643</Dist>
+		</FacilityLink>
+		<FacilityLink>
+			<Link>St. Louis, MO</Link>
+			<Dist>297</Dist>
+		</FacilityLink>
+		<FacilityLink>
+			<Link>New York City, NY</Link>
+			<Dist>790</Dist>
+		</FacilityLink>
+		<FacilityLink>
+			<Link>Detroit, MI</Link>
+			<Dist>282</Dist>
+		</FacilityLink>
+		<FStock>
+			<Item>ABC123</Item>
+			<Quantity>60</Quantity>
+		</FStock>
+		<FStock>
+			<Item>E241i</Item>
+			<Quantity>64</Quantity>
+		</FStock>
+		<FStock>
+			<Item>CT1928</Item>
+			<Quantity>20</Quantity>
+		</FStock>
+		<FStock>
+			<Item>RTF110</Item>
+			<Quantity>110</Quantity>
+		</FStock>
+		<FStock>
+			<Item>XTP202</Item>
+			<Quantity>20</Quantity>
+		</FStock>
+     </Facility>
+
+     <Facility Id="11">
+        <FacilityName>New Orleans, LA</FacilityName>
+		<FacilityRate>10</FacilityRate>
+		<FacilityLink>
+			<Link>Austin, TX</Link>
+			<Dist>512</Dist>
+		</FacilityLink>
+		<FacilityLink>
+			<Link>Nashville, TN</Link>
+			<Dist>532</Dist>
+		</FacilityLink>
+		<FacilityLink>
+			<Link>Atlanta, GA</Link>
+			<Dist>469</Dist>
+		</FacilityLink>
+		<FacilityLink>
+			<Link>Miami, FL</Link>
+			<Dist>864</Dist>
+		</FacilityLink>
+		<FStock>
+			<Item>MM35P</Item>
+			<Quantity>100</Quantity>
+		</FStock>
+		<FStock>
+			<Item>PU238</Item>
+			<Quantity>49</Quantity>
+		</FStock>
+		<FStock>
+			<Item>ZTF109</Item>
+			<Quantity>120</Quantity>
+		</FStock>
+     </Facility>
+
+     <Facility Id="12">
+        <FacilityName>Nashville, TN</FacilityName>
+		<FacilityRate>8</FacilityRate>
+		<FacilityLink>
+			<Link>St. Louis, MO</Link>
+			<Dist>309</Dist>
+		</FacilityLink>
+		<FacilityLink>
+			<Link>New Orleans, LA</Link>
+			<Dist>532</Dist>
+		</FacilityLink>
+		<FacilityLink>
+			<Link>Norfolk, VA</Link>
+			<Dist>706</Dist>
+		</FacilityLink>
+		<FStock>
+			<Item>RX100-3</Item>
+			<Quantity>78</Quantity>
+		</FStock>
+		<FStock>
+			<Item>XLK200B</Item>
+			<Quantity>28</Quantity>
+		</FStock>
+		<FStock>
+			<Item>CR2032</Item>
+			<Quantity>366</Quantity>
+		</FStock>
+		<FStock>
+			<Item>SN-241-L</Item>
+			<Quantity>16</Quantity>
+		</FStock>
+     </Facility>
+
+     <Facility Id="13">
+        <FacilityName>Detroit, MI</FacilityName>
+		<FacilityRate>10</FacilityRate>
+		<FacilityLink>
+			<Link>Chicago, IL</Link>
+			<Dist>282</Dist>
+		</FacilityLink>
+		<FacilityLink>
+			<Link>New York City, NY</Link>
+			<Dist>614</Dist>
+		</FacilityLink>
+		<FacilityLink>
+			<Link>Boston, MA</Link>
+			<Dist>719</Dist>
+		</FacilityLink>
+		<FStock>
+			<Item>JBL3100</Item>
+			<Quantity>117</Quantity>
+		</FStock>
+		<FStock>
+			<Item>SR71-D</Item>
+			<Quantity>8</Quantity>
+		</FStock>
+		<FStock>
+			<Item>CT1928</Item>
+			<Quantity>72</Quantity>
+		</FStock>
+     </Facility>
+
+     <Facility Id="14">
+        <FacilityName>Boston, MA</FacilityName>
+		<FacilityRate>10</FacilityRate>
+		<FacilityLink>
+			<Link>Detroit, MI</Link>
+			<Dist>719</Dist>
+		</FacilityLink>
+		<FacilityLink>
+			<Link>New York City, NY</Link>
+			<Dist>215</Dist>
+		</FacilityLink>
+		<FStock>
+			<Item>MM35P</Item>
+			<Quantity>47</Quantity>
+		</FStock>
+		<FStock>
+			<Item>PL132-C</Item>
+			<Quantity>3</Quantity>
+		</FStock>
+		<FStock>
+			<Item>CT1928</Item>
+			<Quantity>65</Quantity>
+		</FStock>
+     </Facility>
+
+     <Facility Id="15">
+        <FacilityName>New York City, NY</FacilityName>
+		<FacilityRate>14</FacilityRate>
+		<FacilityLink>
+			<Link>Boston, MA</Link>
+			<Dist>215</Dist>
+		</FacilityLink>
+		<FacilityLink>
+			<Link>Detroit, MI</Link>
+			<Dist>614</Dist>
+		</FacilityLink>
+		<FacilityLink>
+			<Link>Chicago, IL</Link>
+			<Dist>790</Dist>
+		</FacilityLink>
+		<FacilityLink>
+			<Link>Norfolk, VA</Link>
+			<Dist>363</Dist>
+		</FacilityLink>
+		<FStock>
+			<Item>RL123A</Item>
+			<Quantity>12</Quantity>
+		</FStock>
+		<FStock>
+			<Item>CR2032</Item>
+			<Quantity>132</Quantity>
+		</FStock>
+		<FStock>
+			<Item>E241i</Item>
+			<Quantity>72</Quantity>
+		</FStock>
+		<FStock>
+			<Item>ZTF109</Item>
+			<Quantity>28</Quantity>
+		</FStock>
+     </Facility>
+
+     <Facility Id="16">
+        <FacilityName>Norfolk, VA</FacilityName>
+		<FacilityRate>10</FacilityRate>
+		<FacilityLink>
+			<Link>New York City, NY</Link>
+			<Dist>363</Dist>
+		</FacilityLink>
+		<FacilityLink>
+			<Link>Nashville, TN</Link>
+			<Dist>706</Dist>
+		</FacilityLink>
+		<FacilityLink>
+			<Link>Atlanta, GA</Link>
+			<Dist>566</Dist>
+		</FacilityLink>
+		<FStock>
+			<Item>MM35P</Item>
+			<Quantity>66</Quantity>
+		</FStock>
+		<FStock>
+			<Item>RL123A</Item>
+			<Quantity>50</Quantity>
+		</FStock>
+		<FStock>
+			<Item>XLK200B</Item>
+			<Quantity>14</Quantity>
+		</FStock>
+     </Facility>
+
+     <Facility Id="17">
+        <FacilityName>Atlanta, GA</FacilityName>
+		<FacilityRate>10</FacilityRate>
+		<FacilityLink>
+			<Link>Norfolk, VA</Link>
+			<Dist>566</Dist>
+		</FacilityLink>
+		<FacilityLink>
+			<Link>New Orleans, LA</Link>
+			<Dist>469</Dist>
+		</FacilityLink>
+		<FacilityLink>
+			<Link>Miami, FL</Link>
+			<Dist>663</Dist>
+		</FacilityLink>
+		<FStock>
+			<Item>RX100-3</Item>
+			<Quantity>90</Quantity>
+		</FStock>
+		<FStock>
+			<Item>E241i</Item>
+			<Quantity>32</Quantity>
+		</FStock>
+		<FStock>
+			<Item>PU238</Item>
+			<Quantity>120</Quantity>
+		</FStock>
+     </Facility>
+
+     <Facility Id="18">
+        <FacilityName>Miami, FL</FacilityName>
+		<FacilityRate>12</FacilityRate>
+		<FacilityLink>
+			<Link>Atlanta, GA</Link>
+			<Dist>663</Dist>
+		</FacilityLink>
+		<FacilityLink>
+			<Link>New Orleans, LA</Link>
+			<Dist>864</Dist>
+		</FacilityLink>
+		<FStock>
+			<Item>MM35P</Item>
+			<Quantity>16</Quantity>
+		</FStock>
+		<FStock>
+			<Item>JBL3100</Item>
+			<Quantity>44</Quantity>
+		</FStock>
+		<FStock>
+			<Item>SR71-D</Item>
+			<Quantity>15</Quantity>
+		</FStock>
+		<FStock>
+			<Item>SN-241-L</Item>
+			<Quantity>28</Quantity>
+		</FStock>
+		<FStock>
+			<Item>XTP202</Item>
+			<Quantity>88</Quantity>
+		</FStock>
+     </Facility>
+
+</FacilityListContent>
